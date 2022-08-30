@@ -1,0 +1,11 @@
+
+@(task : Seq[String])
+ @main("Cost Per Provider"){
+
+<form method="post" action=home/getRates  xmlns="http://www.w3.org/1999/html">
+    <label for="Shipments"> <h2> Enter Shipments: </h2> </label><br>
+    <textarea id="Shipments" name="Shipments" rows="30" cols="60">Input as follows ShipmentId, CountryCode, Weight each line is consider as single input.</textarea>
+    <input type = "submit">
+    <input type="reset">
+</form>
+}

@@ -1,0 +1,17 @@
+@(task : List[shapes.ShipmentShapes.ResultShipment])
+@main("Shipments Cost per provider"){
+<h2>LEAST PRICE SHIPMENTS</h2>
+    <ul>
+     @if(task.length < 1 ){No Shipments found for the given input combination, please try something different}
+        @if(task.nonEmpty){
+        @for( i <- task){
+        <li style="padding-left:1em"> SHIPMENTID: @i.shipment, PROVIDER: @i.provider, COUNTRY: @i.country, WEIGHT: @i.minWeight - @i.maxWeight, PRICE: @i.price</li>
+        }
+        }
+    </ul>
+    <form method="get" action= /  xmlns="http://www.w3.org/1999/html">
+
+        <button onclick= action > Home </button>
+    </form>
+
+}

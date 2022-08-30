@@ -1,0 +1,36 @@
+1661464379775:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Krishna/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/Krishna/AppData/Roaming/JetBrains/IdeaIC2021.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1661674984697:pwd
+1661674996833:runMain models.CodeGen
+1661675159231:clear
+1661675635362:runMain models.CodeGeni
+1661675734549:runMain models.CodeGen
+1661677995535:compile
+1661678047669:runMain models.CodeGen
+1661688027326:compile
+1661688035971:runMain models.CodeGen
+1661688050195:compile
+1661688055692:runMain models.CodeGen
+1661688073210:clear
+1661690128907:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Krishna/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/Krishna/AppData/Roaming/JetBrains/IdeaIC2021.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1661690243473:runMain models.CodeGen
+1661690496111:compile
+1661694061955:runMain models.CodeGen
+1661694712537:compile
+1661694737403:runMain models.CodeGen
+1661694866526:compile
+1661694955307:sbt compile
+1661694962977:runMain models.CodeGen
+1661694967698:runMain model.CodeGen
+1661695857029:runMain models.CodeGen
+1661703709022:compile
+1661703781425:runMain models.CodeGen
+1661703796629:compile
+1661704574913:clean compile
+1661704943230:runMain models.CodeGen
+1661724296237:compile
+1661726671769:run
+1661727398003:compile
+1661727400729:run
+1661727702144:compile
+1661727704519:run
+1661755689596:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Krishna/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/Krishna/AppData/Roaming/JetBrains/IdeaIC2021.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
