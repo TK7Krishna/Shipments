@@ -1,6 +1,6 @@
 @(task : List[shapes.ShipmentShapes.ResultShipment])
 @main("Shipments Cost per provider"){
-<h2>LEAST PRICE SHIPMENTS</h2>
+<h2>SHIPMENTS</h2>
     <ul>
      @if(task.length < 1 ){No Shipments found for the given input combination, please try something different}
         @if(task.nonEmpty){
@@ -13,5 +13,4 @@
 
         <button onclick= action > Home </button>
     </form>
-
 }

@@ -14,7 +14,7 @@ class DatabaseModel(db: Database)(implicit ec: ExecutionContext) {
   def multiGetRates(shipments : ShipmentData) =  {
     db.run(
       (for {
-          rates <- Rates.filter(row => row.country === shipments.countryCode && row.maxWeight >= shipments.price && row.minWeight<= shipments.price).sortBy(_.price) .take(1)
+          rates <- Rates.filter(row => row.country === shipments.countryCode && row.maxWeight >= shipments.price && row.minWeight<= shipments.price).sortBy(_.price)
          } yield {
         rates
       }).result
